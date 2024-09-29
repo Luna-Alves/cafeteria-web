@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -10,6 +10,7 @@ const Header = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="cardapio">Cardápio</Nav.Link>
             <Nav.Link href="login">Login</Nav.Link>
+            <Nav.Link href="clientes">Clientes</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
